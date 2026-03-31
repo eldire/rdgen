@@ -69,7 +69,7 @@ jobs:
     name: Build Windows
     needs: [build-RustDeskTempTopMostWindow, generate-bridge, setup]
     #runs-on: self-hosted
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
